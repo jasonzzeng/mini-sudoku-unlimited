@@ -1,30 +1,48 @@
-# Mini Sudoku Unlimited (6x6)
+# 🎯 Mini Sudoku Unlimited
 
-A responsive 6x6 Sudoku web application built with React, Vite, and TypeScript.
+A fast, modern 6×6 Sudoku game built with **React + Vite + TypeScript** and deployed on **GitHub Pages**.
 
-## Features
-- **3 Difficulty Levels**: Easy, Medium, Hard.
-- **Notes Mode**: Annotate possible candidates.
-- **Auto-Check**: Real-time error highlighting (optional).
-- **Undo/Redo**: Mistake forgiveness.
-- **Visual Feedback**: Green flash on region completion.
-- **Responsive**: Works on mobile and desktop.
+Play unlimited puzzles across multiple difficulties with notes mode, auto-check validation, undo, hints, keyboard navigation, and a polished responsive UI.
 
-## Local Development
+---
 
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
+## 🌍 Live Demo
 
-2. Start dev server:
-   ```bash
-   npm run dev
-   ```
+👉 **Play here:**  
+https://jasonzzeng.github.io/mini-sudoku-unlimited/
 
-## Deployment
+---
 
-This repo includes a GitHub Action to deploy to GitHub Pages.
-1. Push to GitHub.
-2. Go to Settings > Pages > Source = "GitHub Actions".
-3. The workflow will automatically build and deploy.
+## 🧠 About the Game
+
+Mini Sudoku Unlimited is a 6×6 Sudoku variant using 2×3 sub-grids.
+
+Each puzzle follows traditional Sudoku rules:
+
+- Numbers **1–6**
+- No duplicates in:
+  - Any row
+  - Any column
+  - Any 2×3 block
+- Each region must contain all numbers exactly once
+
+---
+
+## 🚀 Features
+
+### 🎮 Gameplay
+- Easy / Medium / Hard difficulty modes
+- Unlimited generated puzzles
+- Real-time game timer
+- Instant win detection
+
+### 🧩 Game Mechanics
+- ✏ Notes mode (toggleable)
+- ✅ Auto-check validation (highlights invalid entries)
+- 🟢 Row / column / block completion flash animation
+- ↩ Undo support
+- 💡 Hint system
+- 🧽 Erase + Reset
+- ⌨ Keyboard support (1–6, arrows, delete, N for notes)
+
+
